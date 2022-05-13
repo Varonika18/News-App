@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.news.ui.bbc.HomeFragment"
+        android:label="BBC"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.news.ui.sky.GalleryFragment"
+        android:label="Sky News"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.news.ui.fox.SlideshowFragment"
+        android:label="Fox News"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/cnnFragment"
+        android:name="com.example.news.Fragment.CNN"
+        android:label="CNN"
+        tools:layout="@layout/fragment_c_n_n" />
+    <fragment
+        android:id="@+id/aajFragment"
+        android:name="com.example.news.Fragment.Aaj"
+        android:label="Aaj Tak"
+        tools:layout="@layout/fragment_aaj" />
+    <fragment
+        android:id="@+id/ttFragment"
+        android:name="com.example.news.Fragment.TImesnow"
+        android:label="Times Now"
+        tools:layout="@layout/fragment_t_imesnow" />
+    <fragment
+        android:id="@+id/IntFragment"
+        android:name="com.example.news.Fragment.IndiaToday"
+        android:label="India Today"
+        tools:layout="@layout/fragment_india_today" />
+    <fragment
+        android:id="@+id/AabpFragment"
+        android:name="com.example.news.Fragment.ABP"
+        android:label="ABP News"
+        tools:layout="@layout/fragment_a_b_p" />
+    <fragment
+        android:id="@+id/IndiaFragment"
+        android:name="com.example.news.Fragment.IndiaTV"
+        android:label="IndiaTv"
+        tools:layout="@layout/fragment_india_t_v" />
+    <fragment
+        android:id="@+id/ddFragment"
+        android:name="com.example.news.Fragment.DD"
+        android:label="DD News"
+        tools:layout="@layout/fragment_india_t_v" />
+    <fragment
+        android:id="@+id/ndtvFragment"
+        android:name="com.example.news.Fragment.NDTV"
+        android:label="NDTV"
+        tools:layout="@layout/fragment_india_t_v" />
+</navigation>

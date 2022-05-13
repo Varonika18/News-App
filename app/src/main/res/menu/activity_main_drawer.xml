@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="BBC"
+            android:icon="@color/black"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/nav_gallery"
+            android:title="Sky News"
+            android:icon="@color/black"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/nav_slideshow"
+            android:title="Fox News"
+            android:icon="@color/black"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/cnnFragment"
+            android:title="CNN"
+            android:icon="@color/black"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/aajFragment"
+            android:title="Aaj Tak"
+            android:icon="@color/black"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/ttFragment"
+            android:title="Times Now"
+            android:icon="@color/black"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/IntFragment"
+            android:title="India Today"
+            android:icon="@color/black"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/IndiaFragment"
+            android:title="India Tv"
+            android:icon="@color/black"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/aajtakFragment"
+            android:title="Aaj Tak"
+            android:icon="@color/black"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/ndtvFragment"
+            android:title="NDTV"
+            android:icon="@color/black"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/ddFragment"
+            android:title="DD News"
+            android:icon="@color/black"
+            android:menuCategory="secondary"/>
+
+    </group>
+
+</menu>
